@@ -26,7 +26,7 @@ int main(){
 int FizzBuzz(int iNumber) {
     
     // Iterate through the number from 0 to iNumber (Included)
-    for (int i = 0; i <= iNumber; i++) {
+    for (int i = 1; i <= iNumber; i++) {
 
         // Check if the value is a multiple of 5 and 3
         if ((i%5 == 0)&&(i%3 == 0)){
